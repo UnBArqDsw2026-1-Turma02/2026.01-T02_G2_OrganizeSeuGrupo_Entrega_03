@@ -1,0 +1,18 @@
+{
+  "name": "organize-seu-grupo-padroes",
+  "version": "1.0.0",
+  "description": "Implementações dos padrões de projeto (Factory Method, Adapter, Strategy) para a Entrega 03.",
+  "private": true,
+  "scripts": {
+    "factory": "ts-node factoryMethod.ts",
+    "adapter": "ts-node adapter.ts",
+    "strategy": "ts-node strategy.ts",
+    "all": "npm run factory && npm run adapter && npm run strategy",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
